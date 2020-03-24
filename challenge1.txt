@@ -1,0 +1,26 @@
+{
+    "stage": "1/4",
+    "statement": "You are Lara Croft's AI. If her AI fails her she perishes before she finishes her quest. Don't fail her or you fail yourself! Your first task is to help her decrypt this message she received.",
+    "instructions": "You can 'GET' the input from /challenge/input and output should be 'POST' json to /challenge/output. Important note: The time between request 'GET' input and 'POST' requests should not exceed 2 secs.",
+    "sampleInput": {
+        "input": {
+            "encryptedMessage": "F KFRTZX JCUQTWJW TSHJ XFNI, YMFY YMJ JCYWFTWINSFWD NX NS BMFY BJ IT, STY BMT BJ FWJ. LT JCUQTWJ!",
+            "key": 5
+        }
+    },
+    "sampleOutput": {
+        "output": {
+            "message": "A FAMOUS EXPLORER ONCE SAID, THAT THE EXTRAORDINARY IS IN WHAT WE DO, NOT WHO WE ARE. GO EXPLORE!"
+        }
+    }
+}
+
+
+{
+  encryptedMessage: "GOVV GO MKX NY SD WI GKI, YB GO MKX KVV MYWO LKMU SX DSWO PYB DRO XOHD KVSQXWOXD KXN IYE'BO GOVMYWO DY DBI KXN USVV WO DROX, SX YR, CKI, KXYDROB 5,000 IOKBC?",
+  key: 10
+}
+{
+  message: 'The answer is right! You can proceed to the next challenge by calling GET /challenge again!'
+}
+WELL WE CAN DO IT MY WAY, OR WE CAN ALL COME BACK IN TIME FOR THE NEXT ALIGNMENT AND YOU'RE WELCOME TO TRY AND KILL ME THEN, IN OH, SAY, ANOTHER 5,000 YEARS?
